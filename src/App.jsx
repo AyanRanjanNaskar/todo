@@ -44,9 +44,6 @@ function App() {
 							className="p-2 border-b border-gray-300 last:border-none flex gap-5 justify-between items-center overflow-hidden">
 								{task}
 								<div className="flex gap-2">
-									<button className="px-4 py-1 bg-blue-600 rounded-md hover:bg-blue-700 text-white font-medium">
-										Edit
-									</button>
 									<button className="px-4 py-1 bg-red-600 rounded-md hover:bg-red-700 text-white font-medium"
 									 onClick={() => handleDelete(index)}>
 										remove
